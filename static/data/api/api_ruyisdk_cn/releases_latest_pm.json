@@ -1,5 +1,24 @@
 {
   "channels": {
+    "testing": {
+      "version": "0.48.0-beta.20260421",
+      "channel": "testing",
+      "release_date": "2026-04-21T00:04:20Z",
+      "download_urls": {
+        "linux/aarch64": [
+          "https://github.com/ruyisdk/ruyi/releases/download/0.48.0-beta.20260421/ruyi-0.48.0-beta.20260421.arm64",
+          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.48.0-beta.20260421/ruyi-0.48.0-beta.20260421.arm64"
+        ],
+        "linux/riscv64": [
+          "https://github.com/ruyisdk/ruyi/releases/download/0.48.0-beta.20260421/ruyi-0.48.0-beta.20260421.riscv64",
+          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.48.0-beta.20260421/ruyi-0.48.0-beta.20260421.riscv64"
+        ],
+        "linux/x86_64": [
+          "https://github.com/ruyisdk/ruyi/releases/download/0.48.0-beta.20260421/ruyi-0.48.0-beta.20260421.amd64",
+          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.48.0-beta.20260421/ruyi-0.48.0-beta.20260421.amd64"
+        ]
+      }
+    },
     "stable": {
       "version": "0.47.0",
       "channel": "stable",
@@ -18,29 +37,10 @@
           "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.47.0/ruyi-0.47.0.amd64"
         ]
       }
-    },
-    "testing": {
-      "version": "0.48.0-alpha.20260317",
-      "channel": "testing",
-      "release_date": "2026-03-16T21:11:37Z",
-      "download_urls": {
-        "linux/aarch64": [
-          "https://github.com/ruyisdk/ruyi/releases/download/0.48.0-alpha.20260317/ruyi-0.48.0-alpha.20260317.arm64",
-          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.48.0-alpha.20260317/ruyi-0.48.0-alpha.20260317.arm64"
-        ],
-        "linux/riscv64": [
-          "https://github.com/ruyisdk/ruyi/releases/download/0.48.0-alpha.20260317/ruyi-0.48.0-alpha.20260317.riscv64",
-          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.48.0-alpha.20260317/ruyi-0.48.0-alpha.20260317.riscv64"
-        ],
-        "linux/x86_64": [
-          "https://github.com/ruyisdk/ruyi/releases/download/0.48.0-alpha.20260317/ruyi-0.48.0-alpha.20260317.amd64",
-          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.48.0-alpha.20260317/ruyi-0.48.0-alpha.20260317.amd64"
-        ]
-      }
     }
   },
   "ruyisdk_org_data": {
-    "generatedAt": "2026-04-03T08:08:58.914Z",
+    "generatedAt": "2026-04-21T20:17:07.862Z",
     "source": "https://api.ruyisdk.cn/releases/latest-pm"
   }
 }
